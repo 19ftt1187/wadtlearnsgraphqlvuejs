@@ -38,20 +38,25 @@ data.posts = [
   },
   {
     id: 'xyz-3',
-    content: "Random Post",
-    userId: 'abc-2',
+    content: "Third Post - Hello again",
+    userId: 'abc-3',
   }
 ];
 
 data.users = [
   {
     id: 'abc-1', 
-    username: "andy25",
+    username: "AdamSyafi",
   },
   {
     id: 'abc-2', 
-    username: "randomUser",
+    username: "AdibSyafiq",
+  },
+  {
+    id: 'abc-3', 
+    username: "AbdulAziz",
   }
+  
 ];
 
 const currentUserId = 'abc-1';
