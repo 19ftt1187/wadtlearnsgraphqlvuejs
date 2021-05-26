@@ -67,7 +67,7 @@ var resolvers = {
       let post = { 
         id: 'xyz-' + (data.posts.length + 1), 
         content: content, 
-        userId: currentUserId,
+        userId: currentUserId,  
       };
       data.posts.push(post);
       return post;
